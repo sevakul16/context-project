@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useReducer } from "react";
 import { CardContext } from "../store/shopping-cart";
 
 export default function Cart() {
